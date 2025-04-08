@@ -1,0 +1,42 @@
+name: tumor-cnr
+
+channels:
+  - simpleitk
+  - conda-forge
+
+dependencies:
+  - python=3.8
+  - jupyter
+  - ipython
+  - jupyterlab
+  - matplotlib
+  - ipywidgets
+  - numpy
+  - scipy
+  - pandas
+  - seaborn
+  - simpleitk
+  - ipykernel
+  - scikit-image
+  - scikit-learn
+  - imageio
+  - nibabel
+  - nilearn
+  - dipy
+  - dcm2niix
+  - statsmodels
+  - opencv
+  - pip
+  - itk
+  - itkwidgets
+  - pip:
+  #  - opencv-contrib-python
+
+
+# To install the TUMOR-CNR Jupyter kernel
+# python -m ipykernel install --user --name tumor-cnr --display-name "TUMOR-CNR"
+
+# To remove and reinstall the 'tumor-cnr' environment (if installation problems):
+# conda deactivate
+# conda env remove -n tumor-cnr
+# conda env update
