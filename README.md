@@ -2,7 +2,7 @@
 Tumor contrast-to-noise assessment
 
 
-This is a copy of prof. Arvid Lundervold's [repositorium](https://github.com/arvidl/tumor-cnr). 
+This is a copy (2025.04.08) of prof. Arvid Lundervold's [repositorium](https://github.com/arvidl/tumor-cnr). 
 
 ## Refs
 
